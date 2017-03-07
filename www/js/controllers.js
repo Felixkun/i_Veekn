@@ -6,4 +6,4 @@ angular.module('i_Veekn.controllers', [])
 
 .controller('DiscoverCtrl', function($scope) {})
 
-.controller('ProfileCtrl', function($scope) {});
+.controller('ProfileCtrl', function($scope) {})

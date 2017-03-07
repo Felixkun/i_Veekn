@@ -44,8 +44,8 @@ angular.module('i_Veekn', ['ionic', 'i_Veekn.controllers', 'i_Veekn.services'])
     url: '/home',
     views: {
       'tab-home': {
-        templateUrl: 'views/tab-home.html',
-        controller: 'HomeCtrl'
+          templateUrl: 'views/tab-home.html',
+          controller: 'HomeCtrl'
       }
     }
   })
@@ -62,7 +62,7 @@ angular.module('i_Veekn', ['ionic', 'i_Veekn.controllers', 'i_Veekn.services'])
     .state('tab.discover', {
       url: '/discover',
       views: {
-        'tab-chats': {
+        'tab-discover': {
           templateUrl: 'views/tab-discover.html',
           controller: 'DiscoverCtrl'
         }
@@ -72,7 +72,7 @@ angular.module('i_Veekn', ['ionic', 'i_Veekn.controllers', 'i_Veekn.services'])
   .state('tab.profile', {
     url: '/profile',
     views: {
-      'tab-account': {
+      'tab-profile': {
         templateUrl: 'views/tab-profile.html',
         controller: 'ProfileCtrl'
       }
