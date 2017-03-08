@@ -1,9 +1,9 @@
 angular.module('i_Veekn.controllers', [])
 
-.controller('HomeCtrl', function($scope) {})
+.controller('homeMainCtrl', function($scope) {})
 
-.controller('FinanceCtrl', function($scope) {})
+.controller('financeCtrl', function($scope) {})
 
-.controller('DiscoverCtrl', function($scope) {})
+.controller('discoverCtrl', function($scope) {})
 
-.controller('ProfileCtrl', function($scope) {})
+.controller('profileCtrl', function($scope) {})

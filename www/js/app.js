@@ -5,9 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('i_Veekn', ['ionic', 'i_Veekn.controllers', 'i_Veekn.services'])
-
-.run(function($ionicPlatform) {
+app.run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -40,46 +38,46 @@ angular.module('i_Veekn', ['ionic', 'i_Veekn.controllers', 'i_Veekn.services'])
 
   // Each tab has its own nav history stack:
 
-  .state('tab.home', {
-    url: '/home',
-    views: {
-      'tab-home': {
-          templateUrl: 'views/tab-home.html',
-          controller: 'HomeCtrl'
-      }
-    }
-  })
-
-  .state('tab.finance', {
-      url: '/finance',
-      views: {
-        'tab-finance': {
-          templateUrl: 'views/tab-finance.html',
-          controller: 'FinanceCtrl'
-        }
-      }
-    })
-    .state('tab.discover', {
-      url: '/discover',
-      views: {
-        'tab-discover': {
-          templateUrl: 'views/tab-discover.html',
-          controller: 'DiscoverCtrl'
-        }
-      }
-    })
-
-  .state('tab.profile', {
-    url: '/profile',
-    views: {
-      'tab-profile': {
-        templateUrl: 'views/tab-profile.html',
-        controller: 'ProfileCtrl'
-      }
-    }
-  });
-
-  // if none of the above states are matched, use this as the fallback
+//  .state('tab.home', {
+//    url: '/home',
+//    views: {
+//      'tab-home': {
+//          templateUrl:"views/views_home/home_main_view.html",
+//          controller: 'HomeCtrl'
+//      }
+//    }
+//  })
+//
+//  .state('tab.finance', {
+//      url: '/finance',
+//      views: {
+//        'tab-finance': {
+//          templateUrl:"views/views_finance/finance_list_view.html",
+//          controller: 'FinanceCtrl'
+//        }
+//      }
+//    })
+//    .state('tab.discover', {
+//      url: '/discover',
+//      views: {
+//        'tab-discover': {
+//          templateUrl:"views/views_discover/discover_main_view.html",
+//          controller: 'DiscoverCtrl'
+//        }
+//      }
+//    })
+//
+//  .state('tab.profile', {
+//    url: '/profile',
+//    views: {
+//      'tab-profile': {
+//        templateUrl:"views/views-profile/profile-userCenter_view.html",
+//        controller: 'ProfileCtrl'
+//      }
+//    }
+//  });
+//
+//  // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/tab/home');
 
 });
