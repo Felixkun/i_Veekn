@@ -1,5 +1,20 @@
+var appName = "i_Veekn";
+var homeModuleName = appName.concat('.home');
+var financeModuleName = appName.concat('.finance');
+var discoverModuleName = appName.concat('.discover');
+var profileModuleName = appName.concat('.profile');
+
+
+
+var  appModuleList = [
+    'ionic'
+    homeModuleName,
+    financeModuleName,
+    discoverModuleName,
+    profileModuleName
+]
 //定义app常量
-var app =  angular.module('i_Veekn', ['ionic', 'i_Veekn.controllers'])
+var app =  angular.module(appName, appModuleList)
 
 
 //定义请求基地址

@@ -36,47 +36,7 @@ app.run(function($ionicPlatform) {
     templateUrl: 'views/tabs.html'
   })
 
-  // Each tab has its own nav history stack:
 
-//  .state('tab.home', {
-//    url: '/home',
-//    views: {
-//      'tab-home': {
-//          templateUrl:"views/views_home/home_main_view.html",
-//          controller: 'HomeCtrl'
-//      }
-//    }
-//  })
-//
-//  .state('tab.finance', {
-//      url: '/finance',
-//      views: {
-//        'tab-finance': {
-//          templateUrl:"views/views_finance/finance_list_view.html",
-//          controller: 'FinanceCtrl'
-//        }
-//      }
-//    })
-//    .state('tab.discover', {
-//      url: '/discover',
-//      views: {
-//        'tab-discover': {
-//          templateUrl:"views/views_discover/discover_main_view.html",
-//          controller: 'DiscoverCtrl'
-//        }
-//      }
-//    })
-//
-//  .state('tab.profile', {
-//    url: '/profile',
-//    views: {
-//      'tab-profile': {
-//        templateUrl:"views/views-profile/profile-userCenter_view.html",
-//        controller: 'ProfileCtrl'
-//      }
-//    }
-//  });
-//
 //  // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/tab/home');
 

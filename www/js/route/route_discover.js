@@ -1,7 +1,7 @@
 /**
  * Created by xiaohuamei on 17/3/8.
  */
-app.config(function ($stateProvider){
+app.config(function($stateProvider){
     $stateProvider
         .state('tab.discover',{
             url:"/discover",
@@ -11,5 +11,6 @@ app.config(function ($stateProvider){
                     controller:"discoverCtrl"
                 }
             }
+
         })
 })
